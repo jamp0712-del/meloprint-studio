@@ -1,0 +1,3 @@
+import rhino3dm from './vendor/rhino3dm.module.js';
+import {current3dm} from './cad-core.js';
+self.onmessage=async e=>{try{const r=await rhino3dm({locateFile:n=>new URL('./vendor/'+n,import.meta.url).href}),doc=await current3dm(r,e.data,async path=>{const res=await fetch(path);if(!res.ok)throw Error('모델을 불러오지 못했습니다.');return new Uint8Array(await res.arrayBuffer());}),bytes=(()=>{try{const o=new r.File3dmWriteOptions();o.version=7;const b=doc.toByteArrayOptions(o);if(o.delete)o.delete();return b;}catch(_){return doc.toByteArray();}})();doc.delete();self.postMessage({bytes},[bytes.buffer]);}catch(e){self.postMessage({error:e.message});}};
