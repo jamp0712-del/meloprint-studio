@@ -1,13 +1,13 @@
 {
   "file": "cad/Meloprint_PF2_E_MW4_Assembly.3dm",
   "filename": "Meloprint_PF2_E_MW4_Assembly.3dm",
-  "bytes": 10971054,
-  "sha256": "9f078782b289ad0ea4308e333356a9feecc2c86b796b826bb2deda6dd85665a0",
-  "parts": 13,
+  "bytes": 10990867,
+  "sha256": "e1ebb20f55e70da8faa8aa4801366378df9379a63b531f9294926de9fc038168",
+  "parts": 12,
   "hardware": "1x 608 bearing, 6x M3x5 DIN912 (cover 4, dial 1, rail 23 1), 6x M3 DIN934",
   "revision": "PF2",
   "fixedSample": true,
-  "faces": 2845,
+  "faces": 2869,
   "assemblyRevision": "PF2-E",
   "combStyle": "makerworld",
   "rhinoArchiveVersion": 7
