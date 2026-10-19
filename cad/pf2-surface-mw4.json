@@ -1,13 +1,13 @@
 {
   "file": "cad/Meloprint_PF2_E_MW4_Assembly.3dm",
   "filename": "Meloprint_PF2_E_MW4_Assembly.3dm",
-  "bytes": 10685502,
-  "sha256": "30a76bcd72f36d55b95691163f880d4e6ca4903ae72a1d4cbc8f80413a5a1667",
+  "bytes": 10677099,
+  "sha256": "dad8d7c2554de2d606a7671ac494b089ab8e48946675e64d8f3c49068630f972",
   "parts": 11,
   "hardware": "6x M3x5 DIN912 only (cover 4, dial 1, rail 23 1), threaded into printed pilots; no bearing, no nuts",
   "revision": "PF2",
   "fixedSample": true,
-  "faces": 2825,
+  "faces": 2818,
   "assemblyRevision": "PF2-E",
   "combStyle": "makerworld",
   "rhinoArchiveVersion": 7
